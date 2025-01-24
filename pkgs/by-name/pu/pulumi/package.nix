@@ -21,7 +21,7 @@
 # Upgrade: https://github.com/NixOS/nixpkgs/pull/352221
 buildGo122Module rec {
   pname = "pulumi";
-  version = "3.122.0";
+  version = "3.147.0";
 
   src = fetchFromGitHub {
     owner = pname;
